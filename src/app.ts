@@ -1,7 +1,8 @@
 import express from 'express';
 import cors from 'cors';
-import episodeRoutes from './routes/podcasts';
+import podcastRoutes from './routes/podcasts';
 import { errorHandler, requestLogger } from './middleware/errorHandler';
+import { StatusCode } from './utils/statusCode';
 
 const app = express();
 
@@ -9,17 +10,17 @@ app.use(cors());
 app.use(express.json());
 app.use(requestLogger);
 
-app.use('/episodes', episodeRoutes);
+app.use('/podcasts', podcastRoutes);
 
 app.get('/health', (req, res) => {
-  res.status(200).json({
+  res.status(StatusCode.OK).json({
     status: 'OK',
     timestamp: new Date().toISOString(),
   });
 });
 
 app.use((req, res) => {
-  res.status(404).json({
+  res.status(StatusCode.NotFound).json({
     error: 'Not Found',
     path: req.path,
     method: req.method,

@@ -1,4 +1,3 @@
-import { Episode } from '../models/Episode';
 import { Podcast } from '../models/Podcast';
 
 import fs from 'fs';

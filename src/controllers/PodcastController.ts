@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import { PodcastService } from '../services/PodcastService';
 import { validateQueryFilters } from '../utils/validation';
 import { FilterOptions } from '../models/FilterOptions';
+import { StatusCode } from '../utils/statusCode';
 
 export class PodcastController 
 {
@@ -26,7 +27,7 @@ export class PodcastController
 
             if (!validation.isValid) 
             {
-                res.status(400).json({
+                res.status(StatusCode.BadRequest).json({
                     error: 'Invalid filter parameters',
                     details: validation.errors,
                 });
@@ -36,7 +37,7 @@ export class PodcastController
 
             const podcasts = this.podcastService.listEpisodes(filters);
 
-            res.status(200).json({
+            res.status(StatusCode.OK).json({
                 success: true,
                 count: podcasts.length,
                 data: podcasts,
@@ -44,7 +45,7 @@ export class PodcastController
         } 
         catch (error) 
         {
-            res.status(500).json({
+            res.status(StatusCode.InternalServerError).json({
                 error: 'Internal server error',
                 message: error instanceof Error ? error.message : 'Unknown error',
             });
