@@ -1,0 +1,172 @@
+[
+    {
+      "id": "@KatonPodcast",
+      "name": "KATON Podcast",
+      "nameVariations": ["KATON", "Katon"],
+      "category": "Cultura Nerd",
+      "link": "https://www.youtube.com/@KatonPodcast",
+      "logo": "https://yt3.googleusercontent.com/nOOvf-sfFSYQhK3T_R6uzlNUIiv1T2fJymyDp6z5ZeEoZsMndjZhdal_k4TZC72--FW-VtJKC-E=s160-c-k-c0x00ffffff-no-rj",
+      "episodes": [
+        {
+            "id": "bK-8DXxaf7k",
+            "name": "SEGREDO DOS TATUADORES DE ANIMES! - Phanny e Dom Calais - KATON PODCAST #189",
+            "thumb": "https://i.ytimg.com/an_webp/bK-8DXxaf7k/mqdefault_6s.webp?du=3000&sqp=CP7f384G&rs=AOn4CLCSy2FlCY7J8EPXQXLn3wnd9d6OEg",
+            "link": "https://www.youtube.com/watch?v=bK-8DXxaf7k",
+            "releaseDate": "2025-11-27",
+            "tags": ["ANIMES", "TATUAGENS", "CULTURA NERD"]
+        },
+        {
+            "id": "5CrR5ktjFdc",
+            "name": "FILMES QUE PODERIAM SER ANIMES - Fred Animes e Tio San - KATON PODCAST #188",
+            "thumb": "https://i.ytimg.com/an_webp/5CrR5ktjFdc/mqdefault_6s.webp?du=3000&sqp=CMrs384G&rs=AOn4CLDmYMKhtzuWoIs7zwpihuWIoQn7nw",
+            "link": "https://www.youtube.com/watch?v=5CrR5ktjFdc",
+            "releaseDate": "2025-11-25",
+            "tags": ["ANIMES", "FILMES", "CULTURA NERD", "CINEMA"]
+        },
+        {
+            "id": "BqakiAvNO5o",
+            "name": "BATALHA DOS MAIS PODEROSOS DA FICÇÃO - RENO NERDVERSO - KATON PODCAST #187",
+            "thumb": "https://i.ytimg.com/an_webp/BqakiAvNO5o/mqdefault_6s.webp?du=3000&sqp=COTv384G&rs=AOn4CLDze2Q09py4wVu6isI_mcOgVrNJHw",
+            "link": "https://www.youtube.com/watch?v=BqakiAvNO5o",
+            "releaseDate": "2025-10-09",
+            "tags": ["BATALHA", "PODEROSOS", "FICÇÃO", "CULTURA NERD"]
+        }
+      ]
+    },
+    {
+      "id": "@FlowPodcast",
+      "name": "Flow Podcast",
+      "nameVariations": ["Flow"],
+      "category": "Variedades",
+      "link": "https://www.youtube.com/@FlowPodcast",
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_kEF_Lu8DNUpCOHSE9xZZRFjXy9kH_G8O9yDP3K9J6o14g=s160-c-k-c0x00ffffff-no-rj",
+      "episodes": [
+        {
+            "id": "wfwePI_EEG0",
+            "name": "ANDREAS KISSER - Flow #585",
+            "thumb": "https://i.ytimg.com/an_webp/wfwePI_EEG0/mqdefault_6s.webp?du=3000&sqp=CPb7384G&rs=AOn4CLBOsIyU0BIOLAbpXrOdUWyMaVBcyg",
+            "link": "https://www.youtube.com/watch?v=wfwePI_EEG0",
+            "releaseDate": "2026-04-08",
+            "tags": ["MÚSICA", "ROCK", "METAL", "SEPULTURA"]
+        },
+        {
+            "id": "GeEMaC2Xzwk",
+            "name": "SIDNEI BARRETO NOGUEIRA - Flow #584",
+            "thumb": "https://i.ytimg.com/an_webp/GeEMaC2Xzwk/mqdefault_6s.webp?du=3000&sqp=CIqI4M4G&rs=AOn4CLC8lFrv6-PYIklWpYbjhcQtZgIWAA",
+            "link": "https://www.youtube.com/watch?v=GeEMaC2Xzwk",
+            "releaseDate": "2026-04-08",
+            "tags": ["RELIGIÃO", "CANDONBLÉ"]
+        },
+        {
+            "id": "HUdTabCyFgE",
+            "name": "SGT NANTES + JORGE LORDELLO - Flow #584",
+            "thumb": "https://i.ytimg.com/an_webp/HUdTabCyFgE/mqdefault_6s.webp?du=3000&sqp=CO3V384G&rs=AOn4CLBvorWwMABuWV94msGF06YgpRokNA",
+            "link": "https://www.youtube.com/watch?v=HUdTabCyFgE",
+            "releaseDate": "2026-04-07",
+            "tags": ["POLICIAL", "CRIME", "SGT NANTES", "JORGE LORDELLO"]
+        }
+      ]
+    },
+    {
+      "id": "@CharlaPodcast",
+      "name": "Charla Podcast",
+      "nameVariations": ["Charla"],
+      "category": "Esportes",
+      "link": "https://www.youtube.com/@CharlaPodcast",
+      "logo": "https://yt3.googleusercontent.com/7Swzd4DaFK7-dhuFxKMkNu2LaBxN0pkMb2Q5yEjhWKs2WCKOValm567SnMpYUnl-8KpdHTpo=s160-c-k-c0x00ffffff-no-rj",
+      "episodes": [
+        {
+            "id": "rPnRN5i7FB8",
+            "name": "CHARLA #710 - Eduardo Freeland [Diretor de Futebol]",
+            "thumb": "https://i.ytimg.com/vi/rPnRN5i7FB8/hqdefault.jpg?v=69d7cd92&sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCZZ3Qj00zktBHQWAGKHTMTMlk2JA",
+            "link": "https://www.youtube.com/watch?v=rPnRN5i7FB8",
+            "releaseDate": "2026-04-09",
+            "tags": ["FUTEBOL", "ESPORTES", "DIRETOR DE FUTEBOL"]
+        },
+        {
+            "id": "aDGD_K7Cbxs",
+            "name": "2019 OU 2026? BRUNO HENRIQUE E ARRASCAETA DECIDEM E FLAMENGO VENCE O CUSCO POR 2 A 0!",
+            "thumb": "https://i.ytimg.com/an_webp/aDGD_K7Cbxs/mqdefault_6s.webp?du=3000&sqp=CMXx384G&rs=AOn4CLDzXUdY7bPmCV4jYmoRxA_tQsJz2A",
+            "link": "https://www.youtube.com/watch?v=aDGD_K7Cbxs",
+            "releaseDate": "2026-04-09",
+            "tags": ["FUTEBOL", "ESPORTES", "FLAMENGO", "LIBERTADORES"]
+        },
+        {
+            "id": "ZwOPae59xY0",
+            "name": "MENGÃO ESTREIA NA LIBERTA! FLU GARFADO? PORTUGA APRESENTADO NO FOGÃO!",
+            "thumb": "https://i.ytimg.com/an_webp/ZwOPae59xY0/mqdefault_6s.webp?du=3000&sqp=CMH-384G&rs=AOn4CLCUF2AiFUcbUmmOYnLizoRHGbZpSQ",
+            "link": "https://www.youtube.com/watch?v=ZwOPae59xY0",
+            "releaseDate": "2026-04-08",
+            "tags": ["FUTEBOL", "ESPORTES", "FLAMENGO", "FLUMINENSE", "BOTAFOGO", "LIBERTADORES"]
+        }
+      ]
+    },
+    {
+        "id": "@ossocios",
+        "name": "Os Sócios Podcast",
+        "nameVariations": ["Os Sócios, Sócios, Sócios Podcast"],
+        "category": "Economia e Negócios",
+        "link": "https://www.youtube.com/@ossocios",
+        "logo": "https://yt3.googleusercontent.com/XbIocAJRyLIYcUQkXp-nb_uSemJyucvvePwYjfSL6nAImpy6Gx3TF6ObIPLhOltIgo18WS35=s160-c-k-c0x00ffffff-no-rj",
+        "episodes": [
+            {
+                "id": "cPhwasQ-Aw8",
+                "name": "COMO GUARDAR DINHEIRO, INVESTIR MELHOR E PLANEJAR A APOSENTADORIA | Os Sócios 290",
+                "thumb": "https://i.ytimg.com/an_webp/cPhwasQ-Aw8/mqdefault_6s.webp?du=3000&sqp=CIb8384G&rs=AOn4CLBp7lhZHDKmep3IB6CNhoFOFlYNkw",
+                "link": "https://www.youtube.com/watch?v=cPhwasQ-Aw8",
+                "releaseDate": "2026-03-26",
+                "tags": ["INVESTIMENTOS", "FINANÇAS PESSOAIS", "APOSENTADORIA"]
+            },
+            {
+                "id": "Ew7dbUMH65U",
+                "name": "POR QUE FICOU TÃO DIFÍCIL EDUCAR OS FILHOS? | Ivana Jauregui | Os Sócios 289",
+                "thumb": "https://i.ytimg.com/an_webp/Ew7dbUMH65U/mqdefault_6s.webp?du=3000&sqp=CJHS384G&rs=AOn4CLCiFmDjLG9-zeKjunedrhCk5NT-2A",
+                "link": "https://www.youtube.com/watch?v=Ew7dbUMH65U",
+                "releaseDate": "2026-03-19",
+                "tags": ["EDUCAÇÃO", "FAMÍLIA", "PSICOLOGIA"]
+            },
+            {
+                "id": "JJ5BXKnVvXk",
+                "name": "O MAIOR QI DO BRASIL: COMO PENSA UMA MENTE FORA DA CURVA? | Hindemburg Melão Jr. | Os Sócios 288",
+                "thumb": "https://i.ytimg.com/an_webp/JJ5BXKnVvXk/mqdefault_6s.webp?du=3000&sqp=CJX1384G&rs=AOn4CLBckqryhYk0wZitCSgjjmb7L96g6A",
+                "link": "https://www.youtube.com/watch?v=JJ5BXKnVvXk",
+                "releaseDate": "2026-03-12",
+                "tags": ["QI", "MENTE", "INTELIGÊNCIA"]
+            }
+        ]
+    },
+    {
+        "id": "@inteligencialtda",
+        "name": "Inteligência Ltda",
+        "nameVariations": ["Inteligência Ltda", "Inteligencia Ltda", "Inteligencia"],
+        "category": "Variedades",
+        "link": "https://www.youtube.com/@inteligencialtda",
+        "logo": "https://yt3.googleusercontent.com/2GryOij-GwwiaE0MlkB-wZPYRG-wVZNsClgFQIjukKWImTAa1JS-EfJBwqsWbwIyMFJ3lGApxQ=s160-c-k-c0x00ffffff-no-rj",
+        "episodes": [
+            {
+                "id": "rPfTAiiZK_A",
+                "name": "LEXA - Inteligência Ltda. Podcast #1809",
+                "thumb": "https://i.ytimg.com/an_webp/rPfTAiiZK_A/mqdefault_6s.webp?du=3000&sqp=CIDA384G&rs=AOn4CLDZxKTRQ1mVY-XB12fl8OIzj0QJIA",
+                "link": "https://www.youtube.com/watch?v=rPfTAiiZK_A",
+                "releaseDate": "2026-04-09",
+                "tags": ["CELEBRIDADES E INFLUENCIADORES", "MÚSICA"]
+            },
+            {
+                "id": "3ubxmKFz5lo",
+                "name": "LEIS QUE FAVORECEM A IMPUNIDADE: PIMENTEL E MUNIQUE BUSSON - Inteligência Ltda. Podcast #1808",
+                "thumb": "https://i.ytimg.com/an_webp/3ubxmKFz5lo/mqdefault_6s.webp?du=3000&sqp=CMbv384G&rs=AOn4CLDVF2PcNWCUzH-U5LHD8Ar2dAid4A",
+                "link": "https://www.youtube.com/watch?v=3ubxmKFz5lo",
+                "releaseDate": "2026-04-08",
+                "tags": ["JORNALISMO", "POLÍTICA", "SOCIEDADE"]
+            },
+            {
+                "id": "hwsRzq0RcWM",
+                "name": "GUERRA NO IRÃ E O APOCALIPSE: DANIEL LOPEZ - Inteligência Ltda. Podcast #1807",
+                "thumb": "https://i.ytimg.com/an_webp/hwsRzq0RcWM/mqdefault_6s.webp?du=3000&sqp=CNDn384G&rs=AOn4CLDGWxQoTJbaLa0U9LO9eT2avsX75w",
+                "link": "https://www.youtube.com/watch?v=hwsRzq0RcWM",
+                "releaseDate": "2026-04-07",
+                "tags": ["GUERRA", "IRÃ", "APOCALIPSE", "POLÍTICA"]
+            }
+        ]
+    }
+]
