@@ -6,5 +6,4 @@ export interface Episode
     link: string;
     releaseDate: string;
     tags: string[];
-    podcastId: string;
 }
