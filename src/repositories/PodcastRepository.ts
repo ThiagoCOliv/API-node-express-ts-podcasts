@@ -14,7 +14,10 @@ export class PodcastRepository
 {
     getAllPodcasts(): Podcast[] { return podcasts; }
 
-    getPodcast(podcastName: string): Podcast | undefined { return podcasts.find((podcast) => podcast.name === podcastName); }
+    getPodcast(podcastName: string): Podcast | undefined 
+    { 
+        return podcasts.find((podcast) => podcast.name === podcastName || podcast.nameVariations.includes(podcastName)); 
+    }
 
     getEpisodesByTag(tag: string): Podcast[] 
     {

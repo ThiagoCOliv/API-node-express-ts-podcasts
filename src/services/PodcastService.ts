@@ -15,24 +15,31 @@ export class PodcastService
         if (!filters || Object.keys(filters).length === 0)
             return podcasts;
 
-        if (filters.category) 
-            podcasts = this.podcastRepository.getPodcastsByCategory(filters.category);
-
-        if (filters.tag) 
-            podcasts = this.podcastRepository.getEpisodesByTag(filters.tag);
-
         if (filters.podcastName)
         {
             const podcast = this.podcastRepository.getPodcast(filters.podcastName);
             
-            if (!podcast) 
-                return [];
-
-            podcasts = [podcast];
+            if (podcast) podcasts = [podcast];
+            else return [];
         }
 
-        if (filters.startDate || filters.endDate) 
-            podcasts = this.podcastRepository.getEpisodesByDateRange(filters.startDate!, filters.endDate!);
+        if (filters.category)
+        {
+            const podcastsByCategory = this.podcastRepository.getPodcastsByCategory(filters.category);
+            podcasts = podcasts.filter((podcast) => podcastsByCategory.includes(podcast));
+        }
+
+        if (filters.tag)
+        {
+            const podcastsWithEpisodesWithTag = this.podcastRepository.getEpisodesByTag(filters.tag);
+            podcasts = podcasts.filter((podcast) => podcastsWithEpisodesWithTag.includes(podcast));
+        }
+
+        if (filters.startDate || filters.endDate)
+        {
+            const podcastsWithEpisodesInDateRange = this.podcastRepository.getEpisodesByDateRange(filters.startDate!, filters.endDate!);
+            podcasts = podcasts.filter((podcast) => podcastsWithEpisodesInDateRange.includes(podcast));
+        }
 
         return podcasts;
     }
